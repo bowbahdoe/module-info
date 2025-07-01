@@ -1,0 +1,8 @@
+{:name "org.clojure"
+ :requires [{:module "java.xml"}
+            {:module "java.desktop"}
+            {:module "jdk.unsupported"}]
+ :exports [{:package "clojure"}
+           {:package "clojure.asm"}
+           {:package "clojure.core"}
+           {:package "clojure.data"}]}
